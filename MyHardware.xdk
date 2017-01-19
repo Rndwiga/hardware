@@ -1,0 +1,269 @@
+{
+  "project": {
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.webapp",
+      "src": "",
+      "projectGuid": "582bbceb-f079-4685-854d-ca0590a77e24",
+      "lastModifiedDate": 1484691993724,
+      "creationDate": 1484688091751
+    },
+    "testDirectory": "test",
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "W3C on Crosswalk",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "23",
+          "android-installLocation": "auto",
+          "android-signed": true,
+          "Fullscreen": true
+        },
+        "isActive_": true,
+        "certificateId_": "MtqYNCWCBUi6w1m4VJaJUg2",
+        "appName_": "MyHardware",
+        "appID_": "myhardware001.tyondo.com",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/48.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/72.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/96.png",
+            "width": 96,
+            "height": 96
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "package-assets/320 by 426.png",
+            "density": "ldpi",
+            "height": 426,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/320 by 470.png",
+            "density": "mdpi",
+            "height": 470,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/480 by 680.png",
+            "density": "hdpi",
+            "height": 640,
+            "width": 480,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/720 by 960.png",
+            "density": "xhdpi",
+            "height": 960,
+            "width": 720,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "package-assets/426 by 320.png",
+            "density": "ldpi",
+            "height": 320,
+            "width": 426,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/470 by 320.png",
+            "density": "mdpi",
+            "height": 320,
+            "width": 470,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/640 by 480.png",
+            "density": "hdpi",
+            "height": 480,
+            "width": 640,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "package-assets/960 by 720.png",
+            "density": "xhdpi",
+            "height": 720,
+            "width": 960,
+            "orientation": "landscape"
+          }
+        ],
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "signed_": true,
+        "crosswalkVersion_": "shared",
+        "cordovaCLIVersion_": "6.2.0",
+        "appDescription_": "My Hardware is an online store for construction materials specialized in supply of raw materials, finished products and machinery. We as the hardware team have gone around the country and seen the disconnect between consumers and suppliers of construction materials, we are your solution, we are what you need, we are a click away from your dream house, dream palace, dream office space and dream project.",
+        "appAuthor_": "Tyondo Enterprise"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "W3C on Cordova",
+        "name_": "iOS",
+        "preferences_": {
+          "deployment-target": "8.0",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "MyHardware",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "W3C on Cordova",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "MyHardware",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "MyHardware",
+        "appID_": "not.yet.specified",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "W3C on Cordova",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "MyHardware",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0"
+      }
+    },
+    "serviceMethods": [],
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectSettingsVersion": "3.0.0"
+  }
+}
